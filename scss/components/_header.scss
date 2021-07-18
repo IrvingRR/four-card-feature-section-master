@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+
+    .header-title {
+        font-size: 25px;
+        font-weight: 400;
+        color: $very-dark-blue;
+        
+        span {
+            font-weight: 600;
+        }
+    }
+    
+    .header-text {
+        color: $grayis;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768) {
+    .header {
+        width: 80%;
+    }
+}
+
+@media screen and(min-width: 1024px) {
+    .header {
+        width: 40%;
+        margin: auto;
+
+        .header-title {
+            font-size: 30px;
+            font-weight: 400;
+            color: $very-dark-blue;
+        }
+    }
+
+}
+
